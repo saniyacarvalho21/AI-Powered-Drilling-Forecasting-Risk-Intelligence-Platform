@@ -1,0 +1,136 @@
+# =====================================================
+# AI-Powered Drilling Forecasting Platform
+# .gitignore
+# =====================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ---------- Virtual Environments ----------
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.code-workspace
+
+# ---------- macOS ----------
+.DS_Store
+
+# ---------- Windows ----------
+Thumbs.db
+Desktop.ini
+
+# ---------- Environment Variables ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Temporary Files ----------
+*.tmp
+*.temp
+*.swp
+
+# ---------- Python Distribution ----------
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---------- Testing ----------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ---------- Streamlit ----------
+.streamlit/secrets.toml
+
+# ---------- Model Files (Optional) ----------
+# Uncomment if model files become very large
+
+# models/*.pkl
+# models/*.joblib
+
+# ---------- Data ----------
+# Ignore raw confidential datasets
+
+data/raw/*
+!data/raw/.gitkeep
+
+# Keep processed sample files if needed
+
+# data/processed/*
+# !data/processed/.gitkeep
+
+# ---------- Reports ----------
+reports/*.html
+reports/*.csv
+
+# ---------- OS Files ----------
+*.bak
+*.orig
+
+# ---------- Cache ----------
+.cache/
+.pyre/
+.mypy_cache/
+
+# ---------- MLflow ----------
+mlruns/
+
+# ---------- Large Files ----------
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+
+# ---------- Archives ----------
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# ---------- Secrets ----------
+*.pem
+*.key
+*.crt
+
+# ---------- Local Configuration ----------
+config.local.py
+
+# ---------- Misc ----------
+*.sqlite3
+*.db
+
+# ---------- GitHub ----------
+.github/workflows/*.log
