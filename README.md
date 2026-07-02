@@ -351,8 +351,8 @@ streamlit run app.py
 # Screenshots
 
 > Add your dashboard screenshots inside:
-<img width="1057" height="583" alt="Screenshot 2026-07-02 at 10 05 34 PM" src="https://github.com/user-attachments/assets/9422d71f-958a-430f-a1c3-7af201e3ceba" />
 <img width="1458" height="796" alt="Screenshot 2026-07-02 at 10 03 41 PM" src="https://github.com/user-attachments/assets/3baded4f-dd25-46e7-acd2-7aff1bfa8605" />
+<img width="1057" height="583" alt="Screenshot 2026-07-02 at 10 05 34 PM" src="https://github.com/user-attachments/assets/9422d71f-958a-430f-a1c3-7af201e3ceba" />
 <img width="1108" height="770" alt="Screenshot 2026-07-02 at 10 06 21 PM" src="https://github.com/user-attachments/assets/3e8b2faa-7530-4c40-8640-774e537ab31a" />
 <img width="1100" height="647" alt="Screenshot 2026-07-02 at 10 06 47 PM" src="https://github.com/user-attachments/assets/b4bcfadf-b0d0-497c-936c-06629a06d546" />
 <img width="1086" height="766" alt="Screenshot 2026-07-02 at 10 07 19 PM" src="https://github.com/user-attachments/assets/34f34067-4d78-4015-88aa-ee99630633cb" />
