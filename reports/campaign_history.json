@@ -1,0 +1,282 @@
+[
+  {
+    "campaign_label": "Campaign_0_baseline",
+    "timestamp": "2026-06-23T15:10:50",
+    "n_new_rows": 0,
+    "n_total_rows": 5000,
+    "n_total_wells": 200,
+    "metrics": {
+      "Duration_Hours": {
+        "best_model": "RandomForest",
+        "MAE": 3.4906,
+        "RMSE": 4.2097,
+        "MAPE": 37.44,
+        "R2": 0.4688
+      },
+      "Total_Cost_USD": {
+        "best_model": "LinearRegression",
+        "MAE": 14267.4148,
+        "RMSE": 17449.602,
+        "MAPE": 27.91,
+        "R2": 0.2475
+      },
+      "NPT_Hours": {
+        "best_model": "RandomForest",
+        "MAE": 0.7235,
+        "RMSE": 1.2472,
+        "MAPE": 118.34,
+        "R2": 0.7492
+      }
+    },
+    "coverage": {
+      "Duration_Hours": 86.8,
+      "Total_Cost_USD": 81.6,
+      "NPT_Hours": 85.3
+    },
+    "spread": {
+      "Duration_Hours": 11.76,
+      "Total_Cost_USD": 46650.13,
+      "NPT_Hours": 1.58
+    }
+  },
+  {
+    "campaign_label": "Campaign_20260625_141243",
+    "timestamp": "2026-06-25T14:12:54",
+    "n_new_rows": 5000,
+    "n_total_rows": 10000,
+    "n_total_wells": 200,
+    "metrics": {
+      "Duration_Hours": {
+        "best_model": "CatBoost",
+        "MAE": 3.5171,
+        "RMSE": 4.2244,
+        "MAPE": 37.64,
+        "R2": 0.4651
+      },
+      "Total_Cost_USD": {
+        "best_model": "LinearRegression",
+        "MAE": 14252.1927,
+        "RMSE": 17437.3717,
+        "MAPE": 27.89,
+        "R2": 0.2486
+      },
+      "NPT_Hours": {
+        "best_model": "LinearRegression",
+        "MAE": 0.7288,
+        "RMSE": 1.2268,
+        "MAPE": 119.45,
+        "R2": 0.7574
+      }
+    },
+    "coverage": {
+      "Duration_Hours": 83.6,
+      "Total_Cost_USD": 79.9,
+      "NPT_Hours": 78.4
+    },
+    "spread": {
+      "Duration_Hours": 11.69,
+      "Total_Cost_USD": 46443.44,
+      "NPT_Hours": 1.63
+    }
+  },
+  {
+    "campaign_label": "Campaign_20260625_141243",
+    "timestamp": "2026-06-25T14:12:56",
+    "n_new_rows": 5000,
+    "n_total_rows": 15000,
+    "n_total_wells": 200,
+    "metrics": {
+      "Duration_Hours": {
+        "best_model": "CatBoost",
+        "MAE": 3.5338,
+        "RMSE": 4.2456,
+        "MAPE": 37.79,
+        "R2": 0.4597
+      },
+      "Total_Cost_USD": {
+        "best_model": "LinearRegression",
+        "MAE": 14248.2424,
+        "RMSE": 17433.8629,
+        "MAPE": 27.88,
+        "R2": 0.2489
+      },
+      "NPT_Hours": {
+        "best_model": "LinearRegression",
+        "MAE": 0.7287,
+        "RMSE": 1.2269,
+        "MAPE": 119.28,
+        "R2": 0.7573
+      }
+    },
+    "coverage": {
+      "Duration_Hours": 84.27,
+      "Total_Cost_USD": 81.43,
+      "NPT_Hours": 77.0
+    },
+    "spread": {
+      "Duration_Hours": 11.68,
+      "Total_Cost_USD": 46435.96,
+      "NPT_Hours": 1.62
+    }
+  },
+  {
+    "campaign_label": "Campaign_20260625_185845",
+    "timestamp": "2026-06-25T18:58:56",
+    "n_new_rows": 5000,
+    "n_total_rows": 20000,
+    "n_total_wells": 200,
+    "metrics": {
+      "Duration_Hours": {
+        "best_model": "RandomForest",
+        "MAE": 3.5434,
+        "RMSE": 4.2541,
+        "MAPE": 37.84,
+        "R2": 0.4575
+      },
+      "Total_Cost_USD": {
+        "best_model": "LinearRegression",
+        "MAE": 14246.3894,
+        "RMSE": 17432.2409,
+        "MAPE": 27.88,
+        "R2": 0.249
+      },
+      "NPT_Hours": {
+        "best_model": "LinearRegression",
+        "MAE": 0.7287,
+        "RMSE": 1.2269,
+        "MAPE": 119.2,
+        "R2": 0.7573
+      }
+    },
+    "coverage": {
+      "Duration_Hours": 85.47,
+      "Total_Cost_USD": 80.3,
+      "NPT_Hours": 78.15
+    },
+    "spread": {
+      "Duration_Hours": 11.7,
+      "Total_Cost_USD": 46403.19,
+      "NPT_Hours": 1.63
+    }
+  },
+  {
+    "campaign_label": "Campaign_20260629_104421",
+    "timestamp": "2026-06-29T10:44:33",
+    "n_new_rows": 5000,
+    "n_total_rows": 25000,
+    "n_total_wells": 200,
+    "metrics": {
+      "Duration_Hours": {
+        "best_model": "RandomForest",
+        "MAE": 3.5549,
+        "RMSE": 4.2643,
+        "MAPE": 37.95,
+        "R2": 0.4549
+      },
+      "Total_Cost_USD": {
+        "best_model": "LinearRegression",
+        "MAE": 14245.3459,
+        "RMSE": 17431.3338,
+        "MAPE": 27.88,
+        "R2": 0.2491
+      },
+      "NPT_Hours": {
+        "best_model": "LinearRegression",
+        "MAE": 0.7287,
+        "RMSE": 1.2269,
+        "MAPE": 119.15,
+        "R2": 0.7573
+      }
+    },
+    "coverage": {
+      "Duration_Hours": 85.84,
+      "Total_Cost_USD": 79.74,
+      "NPT_Hours": 78.22
+    },
+    "spread": {
+      "Duration_Hours": 11.72,
+      "Total_Cost_USD": 46405.93,
+      "NPT_Hours": 1.62
+    }
+  },
+  {
+    "campaign_label": "Campaign_20260702_190222",
+    "timestamp": "2026-07-02T19:02:37",
+    "n_new_rows": 5000,
+    "n_total_rows": 30000,
+    "n_total_wells": 200,
+    "metrics": {
+      "Duration_Hours": {
+        "best_model": "RandomForest",
+        "MAE": 3.5565,
+        "RMSE": 4.2668,
+        "MAPE": 37.94,
+        "R2": 0.4543
+      },
+      "Total_Cost_USD": {
+        "best_model": "LinearRegression",
+        "MAE": 14244.6787,
+        "RMSE": 17430.7629,
+        "MAPE": 27.88,
+        "R2": 0.2492
+      },
+      "NPT_Hours": {
+        "best_model": "LinearRegression",
+        "MAE": 0.7287,
+        "RMSE": 1.2269,
+        "MAPE": 119.12,
+        "R2": 0.7573
+      }
+    },
+    "coverage": {
+      "Duration_Hours": 84.65,
+      "Total_Cost_USD": 79.95,
+      "NPT_Hours": 77.92
+    },
+    "spread": {
+      "Duration_Hours": 11.65,
+      "Total_Cost_USD": 46382.68,
+      "NPT_Hours": 1.62
+    }
+  },
+  {
+    "campaign_label": "Campaign_20260702_220815",
+    "timestamp": "2026-07-02T22:08:41",
+    "n_new_rows": 30000,
+    "n_total_rows": 60000,
+    "n_total_wells": 200,
+    "metrics": {
+      "Duration_Hours": {
+        "best_model": "RandomForest",
+        "MAE": 3.5627,
+        "RMSE": 4.2791,
+        "MAPE": 37.96,
+        "R2": 0.4511
+      },
+      "Total_Cost_USD": {
+        "best_model": "LinearRegression",
+        "MAE": 14243.1507,
+        "RMSE": 17429.4763,
+        "MAPE": 27.87,
+        "R2": 0.2493
+      },
+      "NPT_Hours": {
+        "best_model": "LinearRegression",
+        "MAE": 0.7287,
+        "RMSE": 1.227,
+        "MAPE": 119.06,
+        "R2": 0.7573
+      }
+    },
+    "coverage": {
+      "Duration_Hours": 85.73,
+      "Total_Cost_USD": 80.48,
+      "NPT_Hours": 77.35
+    },
+    "spread": {
+      "Duration_Hours": 11.72,
+      "Total_Cost_USD": 46397.03,
+      "NPT_Hours": 1.63
+    }
+  }
+]

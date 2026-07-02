@@ -1,0 +1,47 @@
+{
+  "Duration_Hours": {
+    "model": "RandomForest",
+    "metrics": {
+      "MAE": 3.562741003080808,
+      "RMSE": 4.279083881543114,
+      "MAPE": 37.95633114498976,
+      "R2": 0.45114131370369015
+    },
+    "coverage_pct_actual_in_p10_p90": 85.73,
+    "target_coverage_pct": 80,
+    "avg_p90_minus_p10_spread": 11.72,
+    "avg_spread_pct_of_prediction": 91.86,
+    "n_test_rows": 12000,
+    "calibration_verdict": "WELL-CALIBRATED: band width is appropriate for an 80% interval."
+  },
+  "Total_Cost_USD": {
+    "model": "LinearRegression",
+    "metrics": {
+      "MAE": 14243.150734606688,
+      "RMSE": 17429.47633036098,
+      "MAPE": 27.874682636251556,
+      "R2": 0.24928228592046275
+    },
+    "coverage_pct_actual_in_p10_p90": 80.48,
+    "target_coverage_pct": 80,
+    "avg_p90_minus_p10_spread": 46397.03,
+    "avg_spread_pct_of_prediction": 74.24,
+    "n_test_rows": 12000,
+    "calibration_verdict": "WELL-CALIBRATED: band width is appropriate for an 80% interval."
+  },
+  "NPT_Hours": {
+    "model": "LinearRegression",
+    "metrics": {
+      "MAE": 0.7287009926877248,
+      "RMSE": 1.2269541972830051,
+      "MAPE": 119.05989766324143,
+      "R2": 0.7572989891169634
+    },
+    "coverage_pct_actual_in_p10_p90": 77.35,
+    "target_coverage_pct": 80,
+    "avg_p90_minus_p10_spread": 1.63,
+    "avg_spread_pct_of_prediction": 87.28,
+    "n_test_rows": 12000,
+    "calibration_verdict": "WELL-CALIBRATED: band width is appropriate for an 80% interval."
+  }
+}
